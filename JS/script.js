@@ -329,7 +329,6 @@ function restartQuiz() {
 }
 
 // ===== STEP 9: Event listeners =====
-// Updated: Added Back button listener.
 
 nextBtn.addEventListener("click", nextQuestion);
 backBtn.addEventListener("click", previousQuestion);
