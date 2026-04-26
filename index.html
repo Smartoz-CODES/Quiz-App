@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/app.css" />
+    <script src="./JS/script.js" defer></script>
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <!-- Progress Bar Section -->
+      <div class="quiz-progress">
+        <span class="quiz-progress-text">Question 1 of 10</span>
+        <div class="quiz-progress-bar">
+          <div class="quiz-progress-fill"></div>
+        </div>
+      </div>
+
+      <!-- Question Section -->
+      <div class="quiz-question">
+        <h2 class="quiz-question-text">Question goes here</h2>
+      </div>
+
+      <!-- Answer Options Section -->
+      <div class="quiz-answers">
+      </div>
+
+      <!-- Feedback Message -->
+      <p class="quiz-feedback"></p>
+
+      <!-- Navigation Buttons -->
+      <div class="quiz-nav-buttons">
+        <button class="quiz-back-btn" disabled>Back</button>
+        <button class="quiz-next-btn" disabled>Next Question</button>
+      </div>
+
+      <!-- Result Screen (hidden by default) -->
+      <div class="quiz-result hidden">
+        <div class="quiz-result-icon">🏆</div>
+        <h2 class="quiz-result-title">Quiz Complete!</h2>
+        <p class="quiz-result-score">You scored 0 out of 10</p>
+        <p class="quiz-result-message"></p>
+        <button class="quiz-restart-btn">Restart Quiz</button>
+      </div>
+    </div>
+  </body>
+</html>
